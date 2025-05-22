@@ -2,6 +2,17 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
 
+# Streamlit layout
+st.subheader("Kelompok 9 Visualisasi Data:")
+
+#Markdown (Membuat List Nama)
+
+st.markdown("""
+- Ilyas Abdul Aziz - 0110223292
+- Muhamad Hilmi Kamil - 0110223293
+- Ferisha Adilla Hidayat - 0110223286
+""")
+
 # Data 
 data = {
     'Suhu': [20, 22, 24, 26, 28, 30, 32, 34, 36],
