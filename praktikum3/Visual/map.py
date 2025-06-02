@@ -20,3 +20,4 @@ locate_map = pd.DataFrame(
 )
 # Map Function
 st.map(locate_map)
+
